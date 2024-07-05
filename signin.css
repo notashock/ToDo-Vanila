@@ -53,35 +53,32 @@ body{
 .content{
     width: 702px;
     height: 582px;
-    display: inline-grid;
+    display: inline-flex;
+    flex-direction: column;
     gap: 100px;
     padding: 80px 100px 80px 100px;
     opacity: 0px;
     align-items: center;
 }
 .title{
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
     width: 324px;
     height: 111px;
-    /* gap: 16px;
-    opacity: 0px; */
+    gap: 16px;
     position: relative;
-    margin: 0px 189px 0px 189px;
-    /* top:8px;
-    right: 289px;
-    left: 289px;
-    bottom: 587px; */
 }
 .title h1{
     margin-top: 0px;
     font-size: 60px;
     font-weight: 700;
-    margin-bottom: 16px;;
     line-height: 75px;
     text-align: left;
-    color: #BA5112
+    color: #BA5112;
 }
 .title p{
+    width: 286px;
+    height: 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -92,19 +89,20 @@ body{
 }
 .form{
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     width: 702px;
-    height: 317px;
+    height: 371px;
     margin: top 100px;
 }
 .input{
     position: relative;
     display: inline-grid;
+    flex-direction: column;
     gap: 40px;
     width: 702px;
     height: 189px;
 }
-#username{
+.username{
     gap: 10px;
     width: 702px;
     height: 73px;
@@ -117,15 +115,36 @@ body{
     text-align: left;
     padding:0px;
 }
-::placeholder{
+#username{
     position: relative;
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 20px;
     left: 36px;
+    top: 25px;
+    width: 203px;
+    height: 25px;
+}
+::placeholder{
     margin:0;
     padding:0;
     font-size: 20px;
     font-weight: 400;
 }
-#password {
+#password{
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: 0;
+    left: 36px;
+    top: 25px;
+    font-size: 20px;
+    width: 200px;
+    height: 25px;
+}
+.password{
+    display: -webkit-inline-flex;
     width: 702px;
     height: 73px;
     border-radius: 12px;
@@ -136,13 +155,23 @@ body{
     line-height: 25px;
     text-align: left;
 }
-.button{
+.password img{
+    width: 28px;
+    height: 28px;
     position:relative;
+    top: 24px;
+    left: 438px;
+}
+.button{
+    display: flex;
+    gap: 24px;
+    position: relative;
     width: 353px;
     height: 122px;
     right: 174.5px;
     left: 174.5px;
     bottom: 0px;
+    flex-direction: column;
 }
 .sign_in{
     position: relative;
@@ -177,10 +206,8 @@ body{
     font-weight: 400;
     line-height: 25px;
     text-align: center;
-    top: 24px;
     margin: 0px;
     color: #251814;
-
 }
 .button > p a{
     color: #BA5112;
