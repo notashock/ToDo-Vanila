@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+}
+.main{
+    width: 888px;
+    height: 433px;
+    border-radius: 12px;
+    padding: 44px 48px 44px 48px;
+    box-shadow: 4px 4px 8px 0px #00000026;
+    
+    background: #FFFFFF;
+}
+.main.contents{
+    width: 792px;
+    height: 345px;
+    gap: 36px;
+    opacity: 0px;
+}
+.rectangle8{
+    width: 1440px;
+    height: 1024px;
+    background: #2518144D;
+    backdrop-filter: blur(20px);
+}
