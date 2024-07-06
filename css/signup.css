@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0px;
     font-family: lexend;
 }
 body{
@@ -8,13 +7,20 @@ body{
     padding: 0;
     width: 1440px;
     height: 1024px;
-    overflow:visible;
-    background-color: #edb04683;
     position: fixed;
     z-index: -1
 }
+.signup{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    bottom: 0px;
+    top:0px;
+    gap: 0px;
+    z-index: 1;
+}
 .img{
-    position: absolute;
+    position: relative;
       top: -275px;
       left: 0;
       right: -169px;
@@ -25,48 +31,39 @@ body{
       background: url('../assets/bgimg.png') no-repeat center center;
       background-size: cover;
       opacity: 0.1;
-      z-index: 1;
-}
-.signup{
-    position: absolute;
-    width: 1440px;
-    height: 1024px;
-    bottom: 0px;
-    top:0px;
-    /* top: 2751px;
-    left: 824px; */
-    gap: 0px;
-    z-index: 1;
+      z-index: -1;
 }
 .main{
-    position: relative;
+    position: absolute;
     width: 902px;
-    height: 742px;
+    height: 747px;
     top: 138.5px;
     left: 269px;
+    bottom: 140px;
+    right: 268px;
     border-radius: 20px;
+    z-index: 1;
     gap: 10px;
-    background: #EDB046;
+    background: #edb046;
     box-shadow: 4px 4px 16px 0px #0000001A;
 }
 .content{
     width: 702px;
-    height: 582px;
+    height: 587px;
     display: inline-flex;
+    flex-direction: column;
     gap: 100px;
     padding: 80px 100px 80px 100px;
+    opacity: 0px;
     align-items: center;
-    flex-direction: column;
-    
-
 }
 .title{
     display: inline-flex;
+    flex-direction: column;
     width: 357px;
     height: 116px;
+    gap: 16px;
     position: relative;
-    margin: 0px 189px 0px 189px;
-    flex-direction: column;
 }
 .title h1{
     width: 324px;
@@ -75,10 +72,12 @@ body{
     font-size: 60px;
     font-weight: 700;
     line-height: 75px;
-    text-align: center;
+    text-align: left;
     color: #FFFFFF;
 }
 .title p{
+    width: 286px;
+    height: 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -86,13 +85,13 @@ body{
     margin-bottom: 0px;
     margin-left: 19px;
     margin-right: 19px;
+    color: #ffffff
 }
 .form{
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     width: 702px;
-    height: 317px;
-    margin: top 100px;
+    height: 371px;
 }
 .input{
     position: relative;
@@ -101,7 +100,7 @@ body{
     width: 702px;
     height: 189px;
 }
-#username{
+.username{
     gap: 10px;
     width: 702px;
     height: 73px;
@@ -110,19 +109,40 @@ body{
     background: #FFFFFF;
     box-shadow: 2px 2px 8px 0px #0000001A;
     color: #B5B5B5;
-    font-size: 20px;
-    font-weight: 400;
     line-height: 25px;
     text-align: left;
     padding:0px;
 }
-::placeholder{
+#username{
     position: relative;
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 20px;
     left: 36px;
-    width: 99px;
+    top: 24px;
+    width: 203px;
     height: 25px;
 }
-#password {
+::placeholder{
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    font-weight: 400;
+}
+#password{
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: 0;
+    left: 36px;
+    top: 25px;
+    font-size: 20px;
+    width: 200px;
+    height: 25px;
+}
+.password{
+    display: inline-flex;
     width: 702px;
     height: 73px;
     border-radius: 12px;
@@ -130,20 +150,28 @@ body{
     background: #FFFFFF;
     box-shadow: 2px 2px 8px 0px #0000001A;
     color: #B5B5B5;
-    font-size: 20px;
-    font-weight: 400;
     line-height: 25px;
     text-align: left;
 }
-.button{
+.password img{
+    width: 28px;
+    height: 28px;
     position:relative;
-    width: 353px;
+    top: 24px;
+    left: 438px;
+}
+.button{
+    display: inline-flex;
+    gap: 24px;
+    position: relative;
+    width: 377px;
     height: 122px;
     right: 174.5px;
     left: 174.5px;
     bottom: 0px;
+    flex-direction: column;
 }
-.sign_up{
+.sign_in{
     position: relative;
     right: 81.5px;
     left: 81.5px;
@@ -158,7 +186,7 @@ body{
     cursor: pointer;
 }
 .sign_in p{
-    width: 70px;
+    width: 76px;
     height: 25px;
     padding: 24px 60px 24px 60px;
     font-size: 20px;
@@ -166,21 +194,18 @@ body{
     line-height: 25px;
     text-align: center;
     margin: 0px;
-    color: #251814
+    color: #FFFFFF
 }
 .button > p{
     position: relative;
-    width: 377px;
+    width: 400px;
     height: 25px;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
     text-align: center;
-    top: 24px;
     margin: 0px;
     color: #FFFFFF;
-    ;
-
 }
 .button > p a{
     color: #BA5112;
