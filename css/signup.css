@@ -171,7 +171,7 @@ body{
     bottom: 0px;
     flex-direction: column;
 }
-.sign_in{
+.sign_up{
     position: relative;
     right: 81.5px;
     left: 81.5px;
@@ -185,7 +185,7 @@ body{
     background: #BA5112;
     cursor: pointer;
 }
-.sign_in p{
+.sign_up p{
     width: 76px;
     height: 25px;
     padding: 24px 60px 24px 60px;
