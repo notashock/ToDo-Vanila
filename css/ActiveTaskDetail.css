@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: lexend;
+}
+body{
+    width: 1440px;
+    height: 1024px;
+    position: fixed;
+}
+.active0{
+    display: inline-flex;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+.sidebar{
+    width: 320px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+.contents{
+    display: inline-flex;
+    flex-direction: column;
+    width: 320px;
+    height: 496.5px;
+    gap: 60px;
+}
+.logo{
+    width: 320px;
+    height: 93px;
+}
+.logo h1{
+    width: 195px;
+    height: 45px;
+    padding: 24px 63px 23px 62px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #ba5122;
+}
+.optsandbtn{
+    display: inline-flex;
+    flex-direction: column;
+    width: 318px;
+    height: 344px;
+    gap: 80px;
+}
+.addtaskbtn{
+    position: relative;
+    left: 49px;
+    width: 220px;
+    height: 68px;
+    gap: 10px;
+    cursor: pointer;
+}
+.rectangle1{
+    display: inline-flex;
+    width: 220px;
+    height: 68px;
+    gap:10px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+}
+.addtask{
+    display: inline-flex;
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    top: 16px;
+    left: 28px;
+    gap: 40px;
+}
+.addtask p{
+    width: 88px;
+    height: 25px;
+    position: relative;
+    left: 0px;
+    top: 5.5px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #251814;
+}
+.addbtn{
+    position: relative;
+    right: 0px;
+    width: 36px;
+    height: 36px;
+    top: 0px;
+    gap: 10px;
+}
+.ellipse{
+    width: 36px;
+    height: 36px;
+    border: 0px solid;
+    background: #ba5112;
+    border-radius: 36px 36px 36px 36px;
+}
+.add{
+    position: absolute;
+    top: 17.88px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+}
+.line2{
+    width: 12px;
+    border-top: 2px solid #ffffff;
+}
+.line1{
+    position: relative;
+    left: 5px;
+    bottom: 6px;
+    height: 12px;
+    border-left: 2px solid #ffffff;
+}
+.opts{
+    display: inline-flex;
+    flex-direction: column;
+    width: 318px;
+    height: 196px;
+    gap: 32px;
+}
+.dashboard{
+    width: 318px;
+    height: 44px;
+    gap: 10px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.dashboard p{
+    width:86px;
+    height: 20px;
+    padding: 12px 116px 12px 116px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+.active{
+    width: 318px;
+    height: 44px;
+    gap: 10px;
+    Background: #edb046;
+    cursor: pointer;
+}
+.active p{
+    width:49px;
+    height: 20px;
+    padding: 12px 135px 12px 134px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+.completed1{
+    width: 318px;
+    height: 44px;
+    gap: 10px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+.completed1 p{
+    width:49px;
+    height: 20px;
+    padding: 12px 117px 12px 116px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+
+/* mainCSS */
+.main{
+    display: inline-flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 475px;
+    gap: 40px;
+}
+.header{
+    width: 1120px;
+    height: 100px;
+    position: relative;
+    background: #ffffff;
+}
+.heading{
+    display: inline-flex;
+    position: absolute;
+    top: 24px;
+    left: 36px;
+    width: 1048px;
+    height: 52px;
+    gap: 818px;
+}
+.heading p{
+    width: 85px;
+    height: 35px;
+    margin-top: 8.5px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #251814;
+}
+.signout{
+    width: 145px;
+    height: 52px;
+    position: relative;
+    border-radius: 8px;
+    background: #ba5112;
+}
+.item{
+    display: inline-flex;
+    width: 97px;
+    height: 20px;
+    padding: 16px 24px 16px 24px;
+    gap: 16px;
+}
+.item p1{
+    width: 65px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.item img{
+    width: 16px;
+    height: 16px;
+}
+.taskcontents{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    left: 80px;
+    width: 960px;
+    height: 335px;
+    gap: 36px;
+}
+.dateheading{
+    display: inline-flex;
+    width: 958px;
+    height: 35px;
+    gap: 456px;
+}
+.dateheading p{
+    width: 288px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: #251814;
+}
+.dateheading p1{
+    width: 214px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+.tasks{
+    display: inline-flex;
+    flex-direction: column;
+    width: 960px;
+    height: 264px;
+    gap: 24px;
+}
+.task{
+    width: 960px;
+    height: 72px;
+    border-radius: 12px;
+    gap: 10px;
+    box-shadow: 2px 2px 6px 0px #0000001A;
+    color: #ffffff;
+}
+.checklist{
+    display: inline-flex;
+    position: relative;
+    top: 22px;
+    left: 24px;
+    width: 266px;
+    height: 28px;
+    gap: 20px;
+}
+.checklist img{
+    width: 28px;
+    height: 28px;
+}
+.checklist p{
+    width: 218px;
+    height: 25px;
+    font-weight: 400px;
+    size: 20px;
+    line-height: 25px;
+    color: #251814;
+}
+
+/* detailboCSS */
+.detailbox{
+    position: absolute;
+    width: 428px;
+    height: 355px;
+    top: 304px;
+    left: 930px;
+    gap: 10px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 2px 2px 10px 0px #0000001A;
+}
+.taskdetail{
+    display: inline-flex;
+    flex-direction: column;
+    width: 356px;
+    height: 299px;
+    padding: 28px 36px 28px 36px;
+    gap: 73px;
+}
+.details{
+    display: inline-flex;
+    flex-direction: column;
+    width: 352px;
+    height: 190px;
+    gap: 40px;
+}
+.title{
+    display: inline-flex;
+    flex-direction: column;
+    width: 328px;
+    height: 63px;
+    gap: 8px;
+}
+.title p{
+    width: 323px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #251814;
+}
+.title p1{
+    width: 328px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #b5b5b5;
+}
+.description{
+    display: inline-flex;
+    flex-direction: column;
+    width: 352px;
+    height: 87px;
+    gap: 12px;
+}
+.description p{
+    width: 352px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #251814;
+}
+.description p1{
+    width: 352px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #251814;
+}
+.buttons{
+    display: inline-flex;
+    width: 356px;
+    height: 36px;
+    gap: 240px;
+}
+.buttons img{
+    width: 36px;
+    height: 36px;
+}
+.button{
+    display: inline-flex;
+    width: 80px;
+    height: 32px;
+    gap: 16px;
+}
+.button img{
+    width: 32px;
+    height: 32px;
+}
