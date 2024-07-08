@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0p;
+    font-family: lexend;
+}
+body{
+    position: absolute;
+}
+.completed1{
+    width: 1440px;
+    height: 1024px;
+    /* top: 1663px;
+    left: 824px; */
+}
+
+/* sidebarCSS */
+.sidebar{
+    width: 320px;
+    height: 1024px;
+    background: #ffffff;
+}
+.rectangle0{
+    width: 320px;
+    height: 1024px;
+    background: #ffffff;
+}
+.contents{
+    display: inline-flex;
+    flex-direction: column;
+    width: 320px;
+    height: 496.52px;
+    gap: 60px;
+}
+.logo{
+    width: 320px;
+    height: 93p;
+    gap: 10px;
+    background: #ffffff;
+}
+.logo h1{
+    width: 195px;
+    height: 45px;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 45px;
+    padding: 24px 63px 24px 62px;
+    color: #BA5112;
+}
+.optsandbtn{
+    display: inline-flex;
+    flex-direction: column;
+    width: 318px;
+    height: 344px;
+    gap: 80px;
+}
+.addtaskbtn{
+    width: 220px;
+    height: 68px;
+    gap: 10px;
+}
+.rectangle1{
+    width: 220px;
+    height: 68px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+}
+.addtask{
+    width: 164px;
+    height: 36px;
+    gap: 40px;
+}
+.addtask p{
+    width: 88px;
+    height: 25px;
+    font-weight: 400px;
+    font-size: 20px; 
+    line-height: 25px;
+    color: #251814;
+}
+.addbtn{
+    position: relative;
+    right: 0px;
+    width: 36px;
+    height: 36px;
+    top: 0px;
+    gap: 10px;
+}
+.ellipse{
+    width: 36px;
+    height: 36px;
+    border: 0px solid;
+    background: #BA5112;
+    border-radius: 36px 36px 36px 36px;
+}
+.add{
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+}
