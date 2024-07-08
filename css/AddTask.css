@@ -147,6 +147,11 @@ body{
     height: 1024px;
     background: #FFFFFF;
 }
+.rectangle2{
+    width: 320px;
+    height: 1023px;
+    background: #ffffff;
+}
 .content1{
     display: inline-flex;
     flex-direction: column;
