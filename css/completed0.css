@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: lexend;
+}
+body{
+    width: 1440px;
+    height: 1024px;
+}
+.completed0{
+    display: inline-flex;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    top: 0px;
+    /* top: 1663px;
+    left: 824px; */
+}
+.rectangle0{
+    width: 320px;
+    height: 1023px;
+    background: #ffffff;
+}
+/* sidebarCSS */
+.sidebar{
+    width: 320px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+.contents{
+    display: inline-flex;
+    flex-direction: column;
+    width: 320px;
+    height: 496.5px;
+    gap: 60px;
+}
+.logo{
+    width: 320px;
+    height: 93px;
+}
+.logo h1{
+    width: 195px;
+    height: 45px;
+    padding: 24px 63px 23px 62px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #ba5122;
+}
+.optsandbtn{
+    display: inline-flex;
+    flex-direction: column;
+    width: 318px;
+    height: 344px;
+    gap: 80px;
+}
+.addtaskbtn{
+    position: relative;
+    left: 49px;
+    width: 220px;
+    height: 68px;
+    gap: 10px;
+    cursor: pointer;
+}
+.rectangle1{
+    display: inline-flex;
+    width: 220px;
+    height: 68px;
+    gap:10px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+}
+.addtask{
+    display: inline-flex;
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    top: 16px;
+    left: 28px;
+    gap: 40px;
+}
+.addtask p{
+    width: 88px;
+    height: 25px;
+    position: relative;
+    left: 0px;
+    top: 5.5px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #251814;
+}
+.addbtn{
+    position: relative;
+    right: 0px;
+    width: 36px;
+    height: 36px;
+    top: 0px;
+    gap: 10px;
+}
+.ellipse{
+    width: 36px;
+    height: 36px;
+    border: 0px solid;
+    background: #ba5112;
+    border-radius: 36px 36px 36px 36px;
+}
+.add{
+    position: absolute;
+    top: 17.88px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+}
+.line2{
+    width: 12px;
+    border-top: 2px solid #ffffff;
+}
+.line1{
+    position: relative;
+    left: 5px;
+    bottom: 6px;
+    height: 12px;
+    border-left: 2px solid #ffffff;
+}
+.opts{
+    display: inline-flex;
+    flex-direction: column;
+    width: 318px;
+    height: 196px;
+    gap: 32px;
+}
+.dashboard{
+    width: 318px;
+    height: 44px;
+    gap: 10px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.dashboard p{
+    width:86px;
+    height: 20px;
+    padding: 12px 116px 12px 116px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+.active{
+    width: 318px;
+    height: 44px;
+    gap: 10px;
+    Background: #ffffff;
+    cursor: pointer;
+}
+.active p{
+    width:49px;
+    height: 20px;
+    padding: 12px 135px 12px 134px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+.completed1{
+    width: 318px;
+    height: 44px;
+    gap: 10px;
+    background: #edb046;
+    cursor: pointer;
+}
+.completed1 p{
+    width:49px;
+    height: 20px;
+    padding: 12px 117px 12px 116px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+
+/* mainCSS */
+.main{
+    display: inline-flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 379px;
+    gap: 40px;
+}
+.header{
+    position: relative;
+    width: 1120px;
+    height: 100px;
+    gap: 10px;
+    background: #ffffff;
+}
+.heading{
+    display: inline-flex;
+    position: absolute;
+    top: 24px;
+    left: 36px;
+    width: 1048px;
+    height: 52px;
+    gap: 755px;
+}
+.heading p{
+    width: 148px;
+    height: 35px;
+    margin: 8.5px 0px 8.5px 0px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #251814;
+}
+.signout{
+    position: relative;
+    width: 145px;
+    height: 52px;
+    border-radius: 8px;
+    gap: 10px;
+    background: #ba5112;
+    cursor: pointer;
+}
+.mdi--logout {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='m17 7l-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5M4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4z'/%3E%3C/svg%3E");
+    background-color: #ffffff;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+.item{
+    position: absolute;
+    display:inline-flex;
+    width: 97px;
+    height: 20px;
+    top: 16px;
+    left: 24px;
+    gap: 16px;
+}
+.item p1{
+    width: 65px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.item img{
+    width: 16px;
+    height: 16px;
+}
+.taskcontents{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    left: 80px;
+    width: 960px;
+    height: 239px;
+    gap: 36px;
+}
+.dateheading{
+    display:inline-flex;
+    width: 959px;
+    height: 35px;
+    gap: 392px;
+}
+.dateheading p{
+    width: 353px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: #251814;
+}
+.dateheading p1{
+    width: 214px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #251814;
+}
+.tasks{
+    display: inline-flex;
+    flex-direction: column;
+    width: 960px;
+    height: 168px;
+    gap:24px;
+}
+.task{
+    width: 960px;
+    height: 72px;
+    border-radius: 12px;
+    background: #edb046;
+    box-shadow: 2px 2px 6px 0px #0000001A; 
+}
+.checklist{
+    display: inline-flex;
+    position: relative;
+    top: 22px;
+    left: 24px;
+    width: 263px;
+    height: 28px;
+    gap: 20px;
+}
+.material-symbols--check-box {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='m10.6 16.2l7.05-7.05l-1.4-1.4l-5.65 5.65l-2.85-2.85l-1.4 1.4zM5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21z'/%3E%3C/svg%3E");
+    background-color: #ba5112;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+.checklist p{
+    width: 215px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color:#251814;
+}
