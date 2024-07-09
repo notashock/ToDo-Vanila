@@ -6,6 +6,13 @@
 body{
     width: 1440px;
     height: 1024px;
+    position: fixed;
+}
+.page{
+    display: inline-flex;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
 }
 .sidebar{
     width: 320px;

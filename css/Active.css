@@ -3,8 +3,14 @@
     padding: 0px;
     font-family: lexend;
 }
+body{
+    width: 1440px;
+    height: 1024px;
+    position: fixed;
+}
 .active0{
     display: inline-flex;
+    position: absolute;
     width: 1440px;
     height: 1024;
     background: #ffffff;
