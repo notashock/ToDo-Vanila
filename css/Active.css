@@ -6,7 +6,7 @@
 body{
     width: 1440px;
     height: 1024px;
-    position: fixed;
+    position: relative;
 }
 .active0{
     display: inline-flex;
